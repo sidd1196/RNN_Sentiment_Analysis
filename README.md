@@ -1,3 +1,8 @@
+# Name - Siddharth Pathania
+# UID - 121291592
+
+
+
 # Comparative Analysis of RNN Architectures for Sentiment Classification
 
 This project implements and evaluates multiple Recurrent Neural Network (RNN) architectures for sentiment classification on the IMDb Movie Review Dataset.
