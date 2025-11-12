@@ -26,13 +26,16 @@ wheels/
 # Virtual Environment
 msml_641_hw3_env/
 
-# Data
-data/
+# Data (exclude large data files, but allow specific ones)
+# Exclude general CSV/JSON files, but allow data/ and results/ directories
 *.csv
 *.json
 *.pkl
 *.h5
 *.hdf5
+# Explicitly allow data directory
+!data/
+!data/*.csv
 
 # Results (include metrics, plots, and config)
 # Explicitly allow results files (negation patterns must come after exclusions)
