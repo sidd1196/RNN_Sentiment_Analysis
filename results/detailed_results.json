@@ -1,0 +1,938 @@
+[
+  {
+    "Model": "RNN",
+    "Activation": "Tanh",
+    "Optimizer": "SGD",
+    "Seq Length": 25,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.51696,
+    "F1": 0.5162074541152977,
+    "Epoch Time (s)": 3.2236483573913572,
+    "Final Train Loss": 0.6930012217415568,
+    "Train Losses": [
+      0.6941614451310824,
+      0.6945810101526168,
+      0.6930417295002267,
+      0.6934519866695794,
+      0.6930012217415568
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "Tanh",
+    "Optimizer": "SGD",
+    "Seq Length": 50,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.5162,
+    "F1": 0.508187404139341,
+    "Epoch Time (s)": 4.623437547683716,
+    "Final Train Loss": 0.6930766197116783,
+    "Train Losses": [
+      0.6949743086572193,
+      0.6940836885853496,
+      0.6933469091687361,
+      0.69323492355054,
+      0.6930766197116783
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "Tanh",
+    "Optimizer": "SGD",
+    "Seq Length": 100,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.51252,
+    "F1": 0.5015002939107145,
+    "Epoch Time (s)": 8.280066347122192,
+    "Final Train Loss": 0.6929949111188464,
+    "Train Losses": [
+      0.6940624155961644,
+      0.6935271084156183,
+      0.6930523930913042,
+      0.692973466328038,
+      0.6929949111188464
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "Tanh",
+    "Optimizer": "SGD",
+    "Seq Length": 25,
+    "Grad Clipping": "No",
+    "Accuracy": 0.50732,
+    "F1": 0.503590263969732,
+    "Epoch Time (s)": 2.6054880619049072,
+    "Final Train Loss": 0.6928292278133695,
+    "Train Losses": [
+      0.6944751329434192,
+      0.6937805983569006,
+      0.6936925430889325,
+      0.6929538130302868,
+      0.6928292278133695
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "Tanh",
+    "Optimizer": "SGD",
+    "Seq Length": 50,
+    "Grad Clipping": "No",
+    "Accuracy": 0.5106,
+    "F1": 0.4839127353169166,
+    "Epoch Time (s)": 4.94956226348877,
+    "Final Train Loss": 0.6929027082974953,
+    "Train Losses": [
+      0.6942178623755569,
+      0.6943246168096352,
+      0.6937302475999994,
+      0.6932187081145509,
+      0.6929027082974953
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "Tanh",
+    "Optimizer": "SGD",
+    "Seq Length": 100,
+    "Grad Clipping": "No",
+    "Accuracy": 0.51276,
+    "F1": 0.5124801238094447,
+    "Epoch Time (s)": 7.77644681930542,
+    "Final Train Loss": 0.6928191358018714,
+    "Train Losses": [
+      0.6946155774928725,
+      0.6931890026687662,
+      0.6931774522489904,
+      0.6928238070681881,
+      0.6928191358018714
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "Sigmoid",
+    "Optimizer": "Adam",
+    "Seq Length": 25,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.63684,
+    "F1": 0.6368297214095072,
+    "Epoch Time (s)": 4.6410462856292725,
+    "Final Train Loss": 0.6447444405702069,
+    "Train Losses": [
+      0.6951141074642806,
+      0.6935700796296834,
+      0.6924425799523473,
+      0.6798320228943739,
+      0.6447444405702069
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "Tanh",
+    "Optimizer": "Adam",
+    "Seq Length": 50,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.68328,
+    "F1": 0.682804448248505,
+    "Epoch Time (s)": 6.142604732513428,
+    "Final Train Loss": 0.6014565946653371,
+    "Train Losses": [
+      0.690960223336354,
+      0.6691212022243558,
+      0.6486167119973151,
+      0.6290526299372964,
+      0.6014565946653371
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "Tanh",
+    "Optimizer": "Adam",
+    "Seq Length": 100,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.59008,
+    "F1": 0.5874924888854827,
+    "Epoch Time (s)": 9.961429452896118,
+    "Final Train Loss": 0.625346644683872,
+    "Train Losses": [
+      0.6941929421461451,
+      0.6915429606462073,
+      0.686308369917028,
+      0.6574054668321634,
+      0.625346644683872
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "ReLU",
+    "Optimizer": "Adam",
+    "Seq Length": 25,
+    "Grad Clipping": "No",
+    "Accuracy": 0.71304,
+    "F1": 0.7125856388227838,
+    "Epoch Time (s)": 3.9712249755859377,
+    "Final Train Loss": 0.4773130407914176,
+    "Train Losses": [
+      0.6933807654453971,
+      0.6810214814475125,
+      0.6055199876999307,
+      0.5292257662395687,
+      0.4773130407914176
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "ReLU",
+    "Optimizer": "Adam",
+    "Seq Length": 50,
+    "Grad Clipping": "No",
+    "Accuracy": 0.7274,
+    "F1": 0.7272381404940553,
+    "Epoch Time (s)": 5.502564191818237,
+    "Final Train Loss": 0.5471426718070379,
+    "Train Losses": [
+      0.6935909238007977,
+      0.6916642846048945,
+      0.6606529515112758,
+      0.6036133082092875,
+      0.5471426718070379
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "ReLU",
+    "Optimizer": "Adam",
+    "Seq Length": 100,
+    "Grad Clipping": "No",
+    "Accuracy": 0.55148,
+    "F1": 0.4912960024681576,
+    "Epoch Time (s)": 8.441077613830567,
+    "Final Train Loss": 0.6527597755955918,
+    "Train Losses": [
+      0.693679559185072,
+      0.6904323833525333,
+      0.6874690854640872,
+      0.6443561985517097,
+      0.6527597755955918
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "ReLU",
+    "Optimizer": "RMSProp",
+    "Seq Length": 25,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.694,
+    "F1": 0.6877894192083938,
+    "Epoch Time (s)": 3.8966973781585694,
+    "Final Train Loss": 0.5002646027013774,
+    "Train Losses": [
+      0.6932258534309504,
+      0.6622112916253716,
+      0.593903765844567,
+      0.540901154203488,
+      0.5002646027013774
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "ReLU",
+    "Optimizer": "RMSProp",
+    "Seq Length": 50,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.73272,
+    "F1": 0.7257912152086996,
+    "Epoch Time (s)": 6.265688896179199,
+    "Final Train Loss": 0.4790005807376579,
+    "Train Losses": [
+      0.6939116846722411,
+      0.6481349166778042,
+      0.5761532269780288,
+      0.5161489821837076,
+      0.4790005807376579
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "ReLU",
+    "Optimizer": "RMSProp",
+    "Seq Length": 100,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.76684,
+    "F1": 0.7635589453147009,
+    "Epoch Time (s)": 9.722156715393066,
+    "Final Train Loss": 0.4817837459771225,
+    "Train Losses": [
+      0.6927014828642921,
+      0.6881208654178683,
+      0.5941200565613444,
+      0.5554957603630812,
+      0.4817837459771225
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "ReLU",
+    "Optimizer": "RMSProp",
+    "Seq Length": 25,
+    "Grad Clipping": "No",
+    "Accuracy": 0.69704,
+    "F1": 0.6965025891222271,
+    "Epoch Time (s)": 4.297729396820069,
+    "Final Train Loss": 0.523156678165926,
+    "Train Losses": [
+      0.6933978767041356,
+      0.6737533991065476,
+      0.6172086592677914,
+      0.5623340023219433,
+      0.523156678165926
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "ReLU",
+    "Optimizer": "RMSProp",
+    "Seq Length": 50,
+    "Grad Clipping": "No",
+    "Accuracy": 0.74068,
+    "F1": 0.7355769615501786,
+    "Epoch Time (s)": 5.007329940795898,
+    "Final Train Loss": 0.4744864367615536,
+    "Train Losses": [
+      0.6937796380513769,
+      0.6788124884943219,
+      0.5988521274855679,
+      0.5251222390995915,
+      0.4744864367615536
+    ]
+  },
+  {
+    "Model": "RNN",
+    "Activation": "ReLU",
+    "Optimizer": "RMSProp",
+    "Seq Length": 100,
+    "Grad Clipping": "No",
+    "Accuracy": 0.68824,
+    "F1": 0.6819198356886512,
+    "Epoch Time (s)": 7.952067041397095,
+    "Final Train Loss": 0.7711370187570982,
+    "Train Losses": [
+      0.693110770048083,
+      0.6912742440048081,
+      0.6855021727359508,
+      0.6829786975213024,
+      0.7711370187570982
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "SGD",
+    "Seq Length": 25,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.5,
+    "F1": 0.3333333333333333,
+    "Epoch Time (s)": 6.074688959121704,
+    "Final Train Loss": 0.6932041148852814,
+    "Train Losses": [
+      0.6932088023866229,
+      0.6932239555336935,
+      0.6932240570597636,
+      0.6932133193820944,
+      0.6932041148852814
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "SGD",
+    "Seq Length": 50,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.5,
+    "F1": 0.3333333333333333,
+    "Epoch Time (s)": 11.074858856201171,
+    "Final Train Loss": 0.6932716262157615,
+    "Train Losses": [
+      0.693313769977111,
+      0.6932508982051059,
+      0.6932743405899429,
+      0.6932770848426673,
+      0.6932716262157615
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "SGD",
+    "Seq Length": 100,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.50044,
+    "F1": 0.33438125568498045,
+    "Epoch Time (s)": 20.284842586517335,
+    "Final Train Loss": 0.6933242922548748,
+    "Train Losses": [
+      0.6932592521543088,
+      0.6932625895570916,
+      0.6933488869453635,
+      0.693171954520828,
+      0.6933242922548748
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "SGD",
+    "Seq Length": 25,
+    "Grad Clipping": "No",
+    "Accuracy": 0.5018,
+    "F1": 0.3765616929370872,
+    "Epoch Time (s)": 5.855221843719482,
+    "Final Train Loss": 0.6932694895188217,
+    "Train Losses": [
+      0.6934365326791163,
+      0.6932683800492445,
+      0.6932013073693151,
+      0.6931974428998845,
+      0.6932694895188217
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "SGD",
+    "Seq Length": 50,
+    "Grad Clipping": "No",
+    "Accuracy": 0.51028,
+    "F1": 0.4611761563575586,
+    "Epoch Time (s)": 10.599799585342407,
+    "Final Train Loss": 0.6933065937150775,
+    "Train Losses": [
+      0.693320642423142,
+      0.6931476711159776,
+      0.6932563285541047,
+      0.6930572793764227,
+      0.6933065937150775
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "SGD",
+    "Seq Length": 100,
+    "Grad Clipping": "No",
+    "Accuracy": 0.49992,
+    "F1": 0.3332977758813803,
+    "Epoch Time (s)": 21.61587791442871,
+    "Final Train Loss": 0.6930409298680932,
+    "Train Losses": [
+      0.6933787455949028,
+      0.693396781487843,
+      0.6931585107770417,
+      0.6932322161886698,
+      0.6930409298680932
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "Adam",
+    "Seq Length": 25,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.71488,
+    "F1": 0.7147948381950133,
+    "Epoch Time (s)": 8.598430824279784,
+    "Final Train Loss": 0.3272610960047111,
+    "Train Losses": [
+      0.6497876194813063,
+      0.5496136022498236,
+      0.4716125158283412,
+      0.4009453944690392,
+      0.3272610960047111
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "Adam",
+    "Seq Length": 50,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.75836,
+    "F1": 0.7582267078696063,
+    "Epoch Time (s)": 13.14342999458313,
+    "Final Train Loss": 0.36385886646483256,
+    "Train Losses": [
+      0.6810877025127411,
+      0.587134672819501,
+      0.48844803740148957,
+      0.4165766616459088,
+      0.36385886646483256
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "Adam",
+    "Seq Length": 100,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.80352,
+    "F1": 0.8035199886827513,
+    "Epoch Time (s)": 20.681129503250123,
+    "Final Train Loss": 0.432770889871718,
+    "Train Losses": [
+      0.6887750290238949,
+      0.6922607316690332,
+      0.6925340776553239,
+      0.5907419032376745,
+      0.432770889871718
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "Tanh",
+    "Optimizer": "Adam",
+    "Seq Length": 25,
+    "Grad Clipping": "No",
+    "Accuracy": 0.71584,
+    "F1": 0.7157527501929728,
+    "Epoch Time (s)": 8.899549102783203,
+    "Final Train Loss": 0.33063396668571343,
+    "Train Losses": [
+      0.6468211974939118,
+      0.5414696847615035,
+      0.4679730193465567,
+      0.3977322297366074,
+      0.33063396668571343
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "Tanh",
+    "Optimizer": "Adam",
+    "Seq Length": 50,
+    "Grad Clipping": "No",
+    "Accuracy": 0.75816,
+    "F1": 0.757793868034908,
+    "Epoch Time (s)": 15.501938438415527,
+    "Final Train Loss": 0.4159886903889344,
+    "Train Losses": [
+      0.6773023887363541,
+      0.5951311948049404,
+      0.5342014024553396,
+      0.478437621537072,
+      0.4159886903889344
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "Tanh",
+    "Optimizer": "Adam",
+    "Seq Length": 100,
+    "Grad Clipping": "No",
+    "Accuracy": 0.82436,
+    "F1": 0.8241610118794289,
+    "Epoch Time (s)": 21.316107273101807,
+    "Final Train Loss": 0.28950854984428875,
+    "Train Losses": [
+      0.6850436551644065,
+      0.6204511126898744,
+      0.44530273850083046,
+      0.35326062178101075,
+      0.28950854984428875
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "Sigmoid",
+    "Optimizer": "RMSProp",
+    "Seq Length": 25,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.71872,
+    "F1": 0.7186239071379763,
+    "Epoch Time (s)": 7.409801435470581,
+    "Final Train Loss": 0.3982794423923468,
+    "Train Losses": [
+      0.662313662755215,
+      0.5772190810469411,
+      0.5114665287534904,
+      0.45247408067402634,
+      0.3982794423923468
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "Tanh",
+    "Optimizer": "RMSProp",
+    "Seq Length": 50,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.75284,
+    "F1": 0.7516271420836538,
+    "Epoch Time (s)": 13.808767652511596,
+    "Final Train Loss": 0.36259242685516474,
+    "Train Losses": [
+      0.6443509866514474,
+      0.5338515127482621,
+      0.46503979886126945,
+      0.41546842021405544,
+      0.36259242685516474
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "Tanh",
+    "Optimizer": "RMSProp",
+    "Seq Length": 100,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.81012,
+    "F1": 0.8097010594704899,
+    "Epoch Time (s)": 22.39959559440613,
+    "Final Train Loss": 0.3602702150888303,
+    "Train Losses": [
+      0.6700483444325455,
+      0.5790042235418353,
+      0.4922427912921552,
+      0.4198038921598583,
+      0.3602702150888303
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "Tanh",
+    "Optimizer": "RMSProp",
+    "Seq Length": 25,
+    "Grad Clipping": "No",
+    "Accuracy": 0.7096,
+    "F1": 0.709571419968982,
+    "Epoch Time (s)": 7.303788042068481,
+    "Final Train Loss": 0.3700508905188812,
+    "Train Losses": [
+      0.654765225432413,
+      0.5548476544411286,
+      0.48472009961257506,
+      0.4289103225064095,
+      0.3700508905188812
+    ]
+  },
+  {
+    "Model": "LSTM",
+    "Activation": "Tanh",
+    "Optimizer": "RMSProp",
+    "Seq Length": 50,
+    "Grad Clipping": "No",
+    "Accuracy": 0.76576,
+    "F1": 0.765575159201208,
+    "Epoch Time (s)": 12.446337890625,
+    "Final Train Loss": 0.4039143388114317,
+    "Train Losses": [
+      0.6808728879827368,
+      0.6556243895722167,
+      0.5529464545381039,
+      0.46204369970599707,
+      0.4039143388114317
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "Tanh",
+    "Optimizer": "SGD",
+    "Seq Length": 25,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.5004,
+    "F1": 0.3375955817224358,
+    "Epoch Time (s)": 11.826622104644775,
+    "Final Train Loss": 0.6931413432673725,
+    "Train Losses": [
+      0.6937160676397631,
+      0.6934213354002179,
+      0.6935706640905737,
+      0.6933304445670389,
+      0.6931413432673725
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "Tanh",
+    "Optimizer": "SGD",
+    "Seq Length": 50,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.51604,
+    "F1": 0.5112965512775633,
+    "Epoch Time (s)": 22.85312247276306,
+    "Final Train Loss": 0.6930171956339151,
+    "Train Losses": [
+      0.6934547299314338,
+      0.6931703469484968,
+      0.6930727468579626,
+      0.6929020374022481,
+      0.6930171956339151
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "Tanh",
+    "Optimizer": "SGD",
+    "Seq Length": 100,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.5122,
+    "F1": 0.5035445162875576,
+    "Epoch Time (s)": 46.29312958717346,
+    "Final Train Loss": 0.6932587515362694,
+    "Train Losses": [
+      0.693216007383888,
+      0.6933748601647594,
+      0.6933141690690804,
+      0.6931708430695107,
+      0.6932587515362694
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "Tanh",
+    "Optimizer": "SGD",
+    "Seq Length": 25,
+    "Grad Clipping": "No",
+    "Accuracy": 0.50404,
+    "F1": 0.3817961920763449,
+    "Epoch Time (s)": 12.016837167739869,
+    "Final Train Loss": 0.6932426178089494,
+    "Train Losses": [
+      0.6934968731592378,
+      0.6931427533516799,
+      0.6932602918056576,
+      0.6931344923918205,
+      0.6932426178089494
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "Tanh",
+    "Optimizer": "SGD",
+    "Seq Length": 50,
+    "Grad Clipping": "No",
+    "Accuracy": 0.50968,
+    "F1": 0.44282263923706794,
+    "Epoch Time (s)": 21.04132056236267,
+    "Final Train Loss": 0.6929390784114828,
+    "Train Losses": [
+      0.6932506745733569,
+      0.6931462462448403,
+      0.6932022185886607,
+      0.6931141389300451,
+      0.6929390784114828
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "Tanh",
+    "Optimizer": "SGD",
+    "Seq Length": 100,
+    "Grad Clipping": "No",
+    "Accuracy": 0.51548,
+    "F1": 0.5055948838845932,
+    "Epoch Time (s)": 41.62164678573608,
+    "Final Train Loss": 0.6931620038988645,
+    "Train Losses": [
+      0.6937221853476961,
+      0.6933981350925572,
+      0.6931350545200241,
+      0.6930589050130771,
+      0.6931620038988645
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "Sigmoid",
+    "Optimizer": "Adam",
+    "Seq Length": 25,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.71276,
+    "F1": 0.7127277220868538,
+    "Epoch Time (s)": 15.345359230041504,
+    "Final Train Loss": 0.28965684415205667,
+    "Train Losses": [
+      0.6500593303033458,
+      0.536652754487284,
+      0.45495078424968377,
+      0.3757360827015794,
+      0.28965684415205667
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "Sigmoid",
+    "Optimizer": "Adam",
+    "Seq Length": 50,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.77476,
+    "F1": 0.7744709529521416,
+    "Epoch Time (s)": 28.54796051979065,
+    "Final Train Loss": 0.32423441776114964,
+    "Train Losses": [
+      0.6635277813200451,
+      0.5474769081682196,
+      0.4510215211021321,
+      0.3854287959768644,
+      0.32423441776114964
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "Tanh",
+    "Optimizer": "Adam",
+    "Seq Length": 100,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.81056,
+    "F1": 0.8100760299658702,
+    "Epoch Time (s)": 53.861753416061404,
+    "Final Train Loss": 0.24333203639692205,
+    "Train Losses": [
+      0.6204108316880053,
+      0.4631733928456941,
+      0.36800188806546313,
+      0.302371066454274,
+      0.24333203639692205
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "Adam",
+    "Seq Length": 25,
+    "Grad Clipping": "No",
+    "Accuracy": 0.7186,
+    "F1": 0.7184340116690647,
+    "Epoch Time (s)": 14.818634366989135,
+    "Final Train Loss": 0.2724795696299399,
+    "Train Losses": [
+      0.6331170550392716,
+      0.5232939704147446,
+      0.4441495260695362,
+      0.36026803474597,
+      0.2724795696299399
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "Adam",
+    "Seq Length": 50,
+    "Grad Clipping": "No",
+    "Accuracy": 0.76896,
+    "F1": 0.7689597101830605,
+    "Epoch Time (s)": 27.30985746383667,
+    "Final Train Loss": 0.2573823103743136,
+    "Train Losses": [
+      0.6204770977997109,
+      0.48985713432588235,
+      0.4031317497953734,
+      0.32845172514695953,
+      0.2573823103743136
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "Adam",
+    "Seq Length": 100,
+    "Grad Clipping": "No",
+    "Accuracy": 0.81756,
+    "F1": 0.8173817760087617,
+    "Epoch Time (s)": 47.0044590473175,
+    "Final Train Loss": 0.28939686516476104,
+    "Train Losses": [
+      0.6355582769112209,
+      0.5109434157533719,
+      0.41300689164177534,
+      0.3398797530252153,
+      0.28939686516476104
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "RMSProp",
+    "Seq Length": 25,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.71144,
+    "F1": 0.7112187408818138,
+    "Epoch Time (s)": 11.920126676559448,
+    "Final Train Loss": 0.3119963132359488,
+    "Train Losses": [
+      0.633342247484895,
+      0.530639241990226,
+      0.46025187211573276,
+      0.389367515130726,
+      0.3119963132359488
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "RMSProp",
+    "Seq Length": 50,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.7734,
+    "F1": 0.7733511566302966,
+    "Epoch Time (s)": 21.158831930160524,
+    "Final Train Loss": 0.28020736809981905,
+    "Train Losses": [
+      0.6120942450316665,
+      0.48968162128458853,
+      0.41580866258162674,
+      0.34939086467713654,
+      0.28020736809981905
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "RMSProp",
+    "Seq Length": 100,
+    "Grad Clipping": "Yes",
+    "Accuracy": 0.81372,
+    "F1": 0.8136620172844536,
+    "Epoch Time (s)": 39.05397515296936,
+    "Final Train Loss": 0.2595144487831675,
+    "Train Losses": [
+      0.6178700764237157,
+      0.4743209795268905,
+      0.38264760214959265,
+      0.3183033805616829,
+      0.2595144487831675
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "RMSProp",
+    "Seq Length": 25,
+    "Grad Clipping": "No",
+    "Accuracy": 0.71212,
+    "F1": 0.7112667905943675,
+    "Epoch Time (s)": 10.776814937591553,
+    "Final Train Loss": 0.3160444846772172,
+    "Train Losses": [
+      0.6350149272195519,
+      0.5338356364184939,
+      0.46394266365357983,
+      0.39195088241868614,
+      0.3160444846772172
+    ]
+  },
+  {
+    "Model": "Bidirectional LSTM",
+    "Activation": "ReLU",
+    "Optimizer": "RMSProp",
+    "Seq Length": 50,
+    "Grad Clipping": "No",
+    "Accuracy": 0.7634,
+    "F1": 0.7626673746912106,
+    "Epoch Time (s)": 20.82578911781311,
+    "Final Train Loss": 0.25255556555126635,
+    "Train Losses": [
+      0.6081070865282927,
+      0.47690279707503136,
+      0.3984988707182048,
+      0.3260875445268953,
+      0.25255556555126635
+    ]
+  }
+]

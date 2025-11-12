@@ -34,10 +34,13 @@ data/
 *.h5
 *.hdf5
 
-# Results (keep structure, ignore large files)
-results/*.csv
-results/*.json
-results/plots/*.png
+# Results (include metrics, plots, and config)
+# Explicitly allow results files (negation patterns must come after exclusions)
+!results/
+!results/*.csv
+!results/*.json
+!results/plots/
+!results/plots/*.png
 !results/.gitkeep
 
 # Jupyter Notebook
